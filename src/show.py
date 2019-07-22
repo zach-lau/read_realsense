@@ -21,13 +21,12 @@ def image_handler(ros_image):
     cv2.imshow("Original", image)
     cv2.waitKey(1000/frame_rate)
 
-    print(image)
     return
 
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description = "Subscribe to an image topic")
-    parser.add_argument("topic", nargs="+")
+    parser.add_argument("topic")
     args = parser.parse_args()
     print("The topic is " + args.topic)
 
