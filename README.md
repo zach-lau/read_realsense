@@ -7,12 +7,14 @@ ROS Nodes:
 
 1. Dependencies
 
-python
-	numpy: sudo apt-get install python-numpy
-	argparse: sudo apt-get install libpython2.7-stdlib
-ROS: Tested with the full version. Insatll instructions from: http://wiki.ros.org/melodic/Installation/Ubuntu
-	Source the setup.bash
-	source /opt/ros/melodic/setup.bash
+python  
+	numpy: sudo apt-get install python-numpy  
+	argparse: sudo apt-get install libpython2.7-stdlib  
+ROS: Tested with the full version. Insatll instructions from: http://wiki.ros.org/melodic/Installation/Ubuntu  
+	Source the setup.bash  
+	source /opt/ros/melodic/setup.bash  
+
+OpenCV  
 
 librealsense: can download debian from https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md
 
